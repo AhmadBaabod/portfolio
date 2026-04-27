@@ -77,16 +77,7 @@
     border-bottom: 1px solid var(--border);
   }
 
-  .nav-logo {
-    font-family: 'Syne', sans-serif;
-    font-weight: 800;
-    font-size: 1.3rem;
-    background: linear-gradient(135deg, var(--accent1), var(--accent2));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-decoration: none;
-  }
+
 
   .nav-links { display: flex; gap: 2rem; list-style: none; }
   .nav-links a {
@@ -571,7 +562,9 @@
 
 <!-- NAV -->
 <nav>
-  <a href="#hero" class="nav-logo">AB.</a>
+  <a href="#hero" class="nav-logo">
+    <img src="logo.png" alt="AB Logo" style="height: 64px;;width:auto;border-radius:8px;display:block;">
+  </a>
   <ul class="nav-links">
     <li><a href="#about">about</a></li>
     <li><a href="#skills">skills</a></li>
@@ -741,7 +734,7 @@
       </div>
     </a>
 
-    <a href="https://github.com/AhmadBaabod/CCF-calculator" target="_blank" class="project-card green reveal">
+    <a href="https://github.com/AhmadBaabod/CCFcalculator" target="_blank" class="project-card green reveal">
       <span class="project-tag" style="background:rgba(6,214,160,0.15);color:#06d6a0;">Healthcare · Tool</span>
       <div class="project-title">CCF Calculator</div>
       <p class="project-desc">A calculator built for use during Code Blue emergencies. When a patient codes and every second counts, medical teams need to know exactly when to administer each drug — this tool takes that calculation off their plate so they can stay focused on saving the patient.</p>
